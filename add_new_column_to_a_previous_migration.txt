@@ -1,0 +1,16 @@
+//add a new column to an already existing migration
+
+php artisan make:migration add_new_column_name
+
+
+//in the migration add
+
+Shema::table('table_name', function($table){
+	$table->column_type('new_column_name');
+});
+
+
+//to roll back
+Shema::table('table_name', function($table){
+	$table->column_type('new_column_name');
+});
