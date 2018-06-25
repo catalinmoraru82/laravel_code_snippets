@@ -1,0 +1,8 @@
+//in controller se realizeaza variabila
+
+Class PagesControlles extends Controller {
+	public function PAGINA() {
+		$variabila = 'ceva';
+		return view('view.pagina') -> with ('variabila', $variabila);
+	}
+}
