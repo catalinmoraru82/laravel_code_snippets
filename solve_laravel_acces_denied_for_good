@@ -1,0 +1,7 @@
+//terminal
+
+php artisan cache:clear 
+chmod -R 777 storage/
+composer dump-autoload
+
+//for laravel 5.4 >
