@@ -1,0 +1,9 @@
+//in AppServiceProvider.php file 
+
+//you add:
+
+use Illuminate\Support\Facades\Schema;
+
+//and
+
+Schema::defaultStringLength(191);
